@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "template-python-app"
+version = "0.1.0"
+description = "template app to deploy to a couple of possible infrastructures"
+authors = ["Dmitry Strakovsky <shifting.planes@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
